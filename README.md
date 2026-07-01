@@ -1,24 +1,41 @@
 # AWS EC2 Static Website Deployment
 
 ## Description
+This project demonstrates how to deploy a static website on an AWS EC2 Ubuntu instance using Nginx.
 
-This project demonstrates deploying a static website on AWS EC2 using Nginx.
+## Live Project
+EC2 Public IP: http://<YOUR-EC2-PUBLIC-IP>
 
-## Project URL
+Example:
+http://54.xx.xx.xx
 
-**Live Project:** https://santhoscloudproject.github.io/Roadmap-aws-/
-
-## Repository URL
-
+## GitHub Repository
 https://github.com/santhoscloudproject/Roadmap-aws-
+
+## Technologies Used
+- AWS EC2
+- Ubuntu 24.04
+- Nginx
+- HTML
 
 ## How to Run
 
 1. Launch an Ubuntu EC2 instance.
-2. Install Nginx.
-3. Deploy the HTML file.
-4. Access the application using the Project URL above.
+2. Update the instance:
+   ```bash
+   sudo apt update
+   sudo apt upgrade -y
+   ```
+3. Install Nginx:
+   ```bash
+   sudo apt install nginx -y
+   ```
+4. Copy the `index.html` file to:
+   ```bash
+   /var/www/html/
+   ```
+5. Open the EC2 Public IP in a browser.
 
 ## Screenshot
 
-![Website Screenshot](Screenshot%202026-07-01%20140119.png)
+(Add your screenshot here)
