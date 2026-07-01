@@ -1,22 +1,13 @@
+# AWS EC2 Static Website Deployment
 
-Go to file
-t
-T
-README.md
-Roadmap-aws-
-/README.md
-santhoscloudproject
-santhoscloudproject
-Initial commit
-e0aeba0
- · 
-20 minutes ago
+## Project Description
 
-Preview
+This project demonstrates deploying a static website on AWS EC2 using Nginx.
 
-Code
+## Project Page URL
 
-Blame
-2 lines (2 loc) · 28 Bytes
-Roadmap-aws-
-Roadmap-aws
+http://65.1.147.81
+
+## Screenshot
+
+![Website Screenshot](Screenshot%202026-07-01%20140119.png)
